@@ -1,7 +1,7 @@
 {
-  "name": "npmpkg",
+  "name": "@rb/npmpkg",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -22,6 +22,10 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/my-awesome-package.git"
   },
   "browserslist": {
     "production": [
